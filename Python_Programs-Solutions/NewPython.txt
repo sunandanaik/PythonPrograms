@@ -1,4 +1,0 @@
-This is my new text file created today.
-This is my first file
-This file
-contains three lines

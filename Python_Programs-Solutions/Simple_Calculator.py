@@ -4,10 +4,9 @@ Created on Sun Nov 29 18:46:56 2020
 
 @author: DELL
 """
-
 from tkinter import *
 root= Tk()
-root.title("Simple Calculator")
+root.title("Simple GUI Calculator")
 #Creating input box
 e=Entry(root,width=50,borderwidth=5)
 e.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
@@ -93,9 +92,6 @@ button_divide=Button(root,text="/", padx=40,pady=20,command=button_divide)
 
 button_equal=Button(root,text="=", padx=91,pady=20,command=button_equal)
 button_clear=Button(root,text="Clear", padx=79,pady=20,command=button_clear)
-
-
-
 
 #Put buttons on screen
 button_1.grid(row=3, column=0)
